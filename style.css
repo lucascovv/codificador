@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Code';
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url(FiraCode-VariableFont_wght.ttf);
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Fira Code';
+    color: slategrey;
+}
+
+body {
+    background-color: background: #010101;
+    background: -webkit-linear-gradient(top left, #010101, #CA2E30);
+    background: -moz-linear-gradient(top left, #010101, #CA2E30);
+    background: linear-gradient(to bottom right, #010101, #CA2E30);
+    color: gold;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    padding-right: 75%;
+
+}
+
+.part-logo{
+    display: flex;
+    margin-top: 40px;
+    
+
+}
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+
+#msg1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#msg1{
+    width: 50%;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: ghostwhite;
+    background-color: black;
+}
+
+.radioType {
+    display: inline;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#msg2 {
+    margin-top: 30px;
+}
+
+#msg2{
+    width: 50%;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: ghostwhite;
+    background-color: black;
+}
+
+label {
+    font-size: 30px;
+    color: seashell;
+}
+
+.footer {
+    margin-top: 80px;
+    
+}
+
+.footer{
+    background-color: gray;
+    border-radius: 25px;
+
+}
+
+.facebook{
+    width: 60px;
+}
+
+.instagram{
+    width: 60px
+}
+
+.linkedin{
+    width: 60px;
+}
+
+
